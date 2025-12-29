@@ -335,6 +335,12 @@
 }
 
 #pullup .websitescroll { position: relative; }
+#pullup .websitescroll.mobile figure { 
+    max-width: 414px;
+    max-height: calc(100vh - 10rem);
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #pullup .websitescroll figure {
     max-height: 25rem;
