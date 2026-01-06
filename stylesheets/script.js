@@ -91,6 +91,11 @@ $(document).ready(function(){
 
     function setPullup(about) {
         $("#pullupContent").addClass("show");
+
+        $("#pullup").addClass("setScroll");
+        $("#pullup").scrollTop(0);
+        $("#pullup").removeClass("setScroll");
+
         $("#pullup").addClass("show").removeClass("about"); 
         if(about) { $("#pullup").addClass("about") };
         $(".mobileMenu").removeClass("expanded");
